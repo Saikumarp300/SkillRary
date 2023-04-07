@@ -15,7 +15,7 @@ import genericLibraries.WebDriverUtility;
 public class SeleniumTrainingPage {
 
 	//Declaration
-	@FindBy(xpath = "//h1[@class=\'page-header\']")
+	@FindBy(xpath = "//h1[@class='page-header']")
 	private WebElement pageHeader;
 	
 	@FindBy(xpath = "//button[@id='add']")
@@ -24,7 +24,7 @@ public class SeleniumTrainingPage {
 	@FindBy(xpath = "//button[.=' Add to Cart']")
 	private WebElement addToCartButton;
 	
-	@FindBy(xpath = "//div[@id='callout']/span")
+	@FindBy(xpath = "//span[@class='message']")
 	private WebElement itemAddedMessage;
 	
 	//Initialization

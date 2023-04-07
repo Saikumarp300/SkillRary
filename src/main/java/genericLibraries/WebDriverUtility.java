@@ -182,7 +182,7 @@ public class WebDriverUtility {
 	 */
 	public void scrollTillElement(WebElement element) {
 		JavascriptExecutor js = (JavascriptExecutor)driver;
-		js.executeScript("arguments[0].scrollIntoview(true)", element);
+		js.executeScript("arguments[0].scrollIntoView(true)", element);
 	}
 	/**
 	 * This method is used to capture the Screenshot of a Webpage

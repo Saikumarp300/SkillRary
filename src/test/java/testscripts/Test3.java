@@ -16,7 +16,7 @@ public class Test3 extends BaseClass{
 		home.clickSkillraryDemoApp();
 		web.handleChildBrowser();
 		
-		soft.assertEquals(demoApp.getPageHeader(), "Skillrary-ECommerce");
+		soft.assertEquals(demoApp.getPageHeader(), "SkillRary-ECommerce");
 		
 		web.scrollTillElement(demoApp.getContactUsLink());
 		demoApp.clickContactUs();
